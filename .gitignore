@@ -1,0 +1,33 @@
+# Entorno virtual y cachés de Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# Secretos y configuración local
+.env
+.env.*
+!.env.example
+
+# Datos reales generados por sesión / cargas de usuarios
+/data/datos_*.pkl
+/data/reporte_*.pkl
+/data/*/
+!/data/sinteticos/
+!/data/sinteticos/**
+
+# Resultados de predicción generados
+/resultados/
+
+# Sistema / editores / logs
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+~$*
+*.tmp

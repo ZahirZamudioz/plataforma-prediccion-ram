@@ -1,0 +1,19 @@
+# Python 3.11
+# Interfaz y servidor
+dash==4.5.0
+dash-bootstrap-components==2.0.4
+Flask==3.1.3
+gunicorn==26.2.0
+plotly==7.1.0
+
+# Datos y Excel
+pandas==3.1.1
+numpy==2.4.6
+openpyxl==3.1.5
+xlsxwriter==3.3.1
+
+# Modelos y estadística
+statsmodels==0.15.0
+pmdarima==2.1.1
+scikit-learn==1.9.1
+xgboost==3.2.0
